@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './StudentForm.css'; // Import CSS file
+import './StudentForm.css'; 
 
 const StudentForm = ({ onSubmit }) => {
   const [name, setName] = useState('');
@@ -17,7 +17,7 @@ const StudentForm = ({ onSubmit }) => {
   return (
     <form onSubmit={handleSubmit} className="student-form">
       <label>
-        Name:
+        Full Name:
         <input
           type="text"
           value={name}
@@ -27,7 +27,7 @@ const StudentForm = ({ onSubmit }) => {
       </label>
       <br />
       <label>
-        Email:
+        Email Address:
         <input
           type="email"
           value={email}
