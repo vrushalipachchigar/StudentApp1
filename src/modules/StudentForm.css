@@ -1,37 +1,37 @@
-Apply this CSS to your StudentForm component
-
 .student-form {
   max-width: 350px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px; /* Increased padding */
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .student-form label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px; /* Adjusted margin */
   font-weight: bold;
 }
 
 .student-form input {
-  width: calc(100% - 16px);
-  padding: 10px;
+  width: 100%;
+  padding: 12px;
   margin: 0 0 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #007bff; /* Primary color border */
   border-radius: 4px;
   box-sizing: border-box;
+  transition: border-color 0.3s; /* Smooth transition */
 }
 
 .student-form input:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #0056b3; /* Darker color on focus */
 }
 
 .student-form button {
   width: 100%;
-  padding: 12px;
+  padding: 14px; /* Increased padding */
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -41,6 +41,5 @@ Apply this CSS to your StudentForm component
 }
 
 .student-form button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Darker color on hover */
 }
-
