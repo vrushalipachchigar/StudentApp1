@@ -37,7 +37,7 @@ const StudentForm = ({ onSubmit }) => {
       </label>
       <br />
       <label>
-        Phone:
+        Phone Number:
         <input
           type="tel"
           value={phone}
